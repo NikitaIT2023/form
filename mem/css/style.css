@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+.header__title {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 90px;
+}
+
+.box {
+    height: 450px;
+    border: 1px #e9e9e9 solid;
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: url('https://foto-tula.ru/files/p0145073.jpg');
+}
+
+.box__title {
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#name {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    padding: 10px 45px;
+    border: none;
+}
+
+#number {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    padding: 10px 45px;
+    border: none;
+}
+
+#city {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    padding: 10px 45px;
+    border: none;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 45px;
+    border: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #e2e2e2;
+}
